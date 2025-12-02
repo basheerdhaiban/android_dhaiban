@@ -1,0 +1,36 @@
+package com.semicolon.dhaiban.presentation.myprofile
+
+import com.semicolon.dhaiban.presentation.base.ErrorState
+
+data class MyProfileScreenState(
+    var countOfUnreadMessage :Int=0 ,
+    val isLoading: Boolean = false,
+    val isUpdated: Boolean = false,
+    val changePasswordLoading: Boolean = false,
+    val changePhoneLoading: Boolean = false,
+    val username: String = "",
+    val userImageUrl: String = "",
+    val oldUsername: String = "",
+    val usernameErrorMessage: String = "",
+    val email: String = "",
+    val oldEmail: String = "",
+    val emailErrorMessage: String = "",
+    val phoneNumber: String = "",
+    var countryCode: String ="",
+    val phoneErrorMessage: String = "",
+    val password: String = "***********",
+    val passwordErrorMessage: String = "",
+    val changePhoneErrorMessage: String = "",
+    val currentPassword: String = "",
+    val newPassword: String = "",
+    val reEnterNewPassword: String = "",
+    val changePasswordError: String = "",
+    val changePhoneNumber: String = "",
+    val changePhonePassword: String = "",
+    val showPasswordBottomSheet: Boolean = false,
+    val showPhoneBottomSheet: Boolean = false,
+    val showOtpBottomSheet: Boolean = false,
+    val showDeleteAccountDialog: Boolean = false,
+    val errorState: ErrorState = ErrorState.Idle,
+    val imageIsUpdated: Boolean = false,
+)

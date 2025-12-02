@@ -1,0 +1,15 @@
+package com.semicolon.domain.utils
+
+enum class ValidationState {
+    BLANK_EMAIL, INVALID_EMAIL,
+
+    BLANK_PHONE, INVALID_PHONE,
+
+    BLANK_PASSWORD, SHORT_PASSWORD, NOT_SAME,
+
+    BLANK_USER_NAME, SHORT_USER_NAME,
+
+    BLANK_OTP, SHORT_OTP, INVALID_OTP,
+
+    SUCCESS,
+}

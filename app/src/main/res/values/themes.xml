@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Dhaiban" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <!-- **START** PayTab Payment styles -->
+<!--    <style name="PaymentSdkTheme" parent="Theme.MaterialComponents.NoActionBar">-->
+<!--        &lt;!&ndash; Hides the payment screen title background &ndash;&gt;-->
+<!--        <item name="payment_sdk_hideScreenTitleBackground">true</item>-->
+<!--        &lt;!&ndash; Sets the alignment of the payment screen title [start-end-center] &ndash;&gt;-->
+<!--        <item name="payment_sdk_screenTitleAlignment">start</item>-->
+<!--        &lt;!&ndash; Hides the card and button shadows &ndash;&gt;-->
+<!--        <item name="payment_sdk_hideViewsShadow">true</item>-->
+<!--    </style>-->
+    <!-- **END** PayTab Payment styles -->
+</resources>

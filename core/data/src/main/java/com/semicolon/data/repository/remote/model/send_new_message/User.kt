@@ -1,0 +1,33 @@
+package com.semicolon.data.repository.remote.model.send_new_message
+
+data class User(
+    val accepted: Int,
+    val active: Int,
+    val address: Any,
+    val balance: Double,
+    val birth_date: Any,
+    val city_id: Any,
+    val created_at: String,
+    val email: String,
+    val email_verified_at: Any,
+    val f_name: String,
+    val fax: Any,
+    val gender: String,
+    val hasAdminAccess: String,
+    val id: Int,
+    val l_name: String,
+    val lang: Any,
+    val last_login: String,
+    val last_logout: Any,
+    val name: String,
+    val note: Any,
+    val phone: String,
+    val photo: String,
+    val provider_id: Any,
+    val role_id: Any,
+    val subscribtion_list: Int,
+    val updated_at: String,
+    val user_type: String,
+    val virification_code: String,
+    val websit_link: Any
+)

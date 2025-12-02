@@ -1,0 +1,1441 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "4caafb32e8f0b6a13f96c272ddd432e7",
+    "entities": [
+      {
+        "tableName": "STRING_TABLE",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `accepted` TEXT NOT NULL, `account` TEXT NOT NULL, `accountVerification` TEXT NOT NULL, `addAddressWithPlusPrefix` TEXT NOT NULL, `addAddress` TEXT NOT NULL, `addMore` TEXT NOT NULL, `addNewCreditDebitCard` TEXT NOT NULL, `addToCard` TEXT NOT NULL, `address` TEXT NOT NULL, `addressName` TEXT NOT NULL, `addressType` TEXT NOT NULL, `alreadyHaveAnAccount` TEXT NOT NULL, `appName` TEXT NOT NULL, `apply` TEXT NOT NULL, `areYouSureYouWantToDeleteAccount` TEXT NOT NULL, `areYouSureYouWantToLogOut` TEXT NOT NULL, `availableCoupons` TEXT NOT NULL, `back` TEXT NOT NULL, `bestSeller` TEXT NOT NULL, `blankEmail` TEXT NOT NULL, `blankOtp` TEXT NOT NULL, `blankPassword` TEXT NOT NULL, `blankPhone` TEXT NOT NULL, `blankUsername` TEXT NOT NULL, `canITrackMyOrdersDeliveryStatus` TEXT NOT NULL, `cart` TEXT NOT NULL, `cash` TEXT NOT NULL, `categories` TEXT NOT NULL, `category` TEXT NOT NULL, `change` TEXT NOT NULL, `city` TEXT NOT NULL, `clear` TEXT NOT NULL, `color` TEXT NOT NULL, `confirm` TEXT NOT NULL, `confirmLocation` TEXT NOT NULL, `contactNumber` TEXT NOT NULL, `contactUs` TEXT NOT NULL, `continueForPayment` TEXT NOT NULL, `country` TEXT NOT NULL, `coupons` TEXT NOT NULL, `creditDebitCards` TEXT NOT NULL, `currency` TEXT NOT NULL, `currentOrders` TEXT NOT NULL, `currentPassword` TEXT NOT NULL, `currentRequests` TEXT NOT NULL, `customerService` TEXT NOT NULL, `declined` TEXT NOT NULL, `deleteAccount` TEXT NOT NULL, `delivered` TEXT NOT NULL, `deliveryAddress` TEXT NOT NULL, `description` TEXT NOT NULL, `detailedAddress` TEXT NOT NULL, `donTHaveAnAccount` TEXT NOT NULL, `done` TEXT NOT NULL, `email` TEXT NOT NULL, `emailHint` TEXT NOT NULL, `enterPhoneNumberToResetPassword` TEXT NOT NULL, `fAQ` TEXT NOT NULL, `facebook` TEXT NOT NULL, `fashion` TEXT NOT NULL, `favourites` TEXT NOT NULL, `filter` TEXT NOT NULL, `flashSale` TEXT NOT NULL, `forgetPasswordAppBarTitle` TEXT NOT NULL, `government` TEXT NOT NULL, `hi` TEXT NOT NULL, `home` TEXT NOT NULL, `instagram` TEXT NOT NULL, `invalidEmail` TEXT NOT NULL, `invalidOtp` TEXT NOT NULL, `invalidPhone` TEXT NOT NULL, `itemsInYourCart` TEXT NOT NULL, `language` TEXT NOT NULL, `logIn` TEXT NOT NULL, `logOut` TEXT NOT NULL, `loginBy` TEXT NOT NULL, `loginScreenHeader` TEXT NOT NULL, `testSmallDescription` TEXT NOT NULL, `testDescription` TEXT NOT NULL, `material` TEXT NOT NULL, `mobileNumber` TEXT NOT NULL, `myProfile` TEXT NOT NULL, `newPassword` TEXT NOT NULL, `newPasswordHint` TEXT NOT NULL, `newPasswordLabel` TEXT NOT NULL, `newProduct` TEXT NOT NULL, `next` TEXT NOT NULL, `notSimilarPasswords` TEXT NOT NULL, `orderDate` TEXT NOT NULL, `orderID` TEXT NOT NULL, `orderNumber` TEXT NOT NULL, `orders` TEXT NOT NULL, `otpEmailDescription` TEXT NOT NULL, `otpPhoneDescription` TEXT NOT NULL, `password` TEXT NOT NULL, `payment` TEXT NOT NULL, `paymentDetails` TEXT NOT NULL, `paymentMethod` TEXT NOT NULL, `paymentStatus` TEXT NOT NULL, `pending` TEXT NOT NULL, `phoneNumberHint` TEXT NOT NULL, `placeOrder` TEXT NOT NULL, `postalCode` TEXT NOT NULL, `previousOrders` TEXT NOT NULL, `previousRequests` TEXT NOT NULL, `price` TEXT NOT NULL, `priceRange` TEXT NOT NULL, `privacyPolicy` TEXT NOT NULL, `productDetails` TEXT NOT NULL, `profile` TEXT NOT NULL, `promoCode` TEXT NOT NULL, `properties` TEXT NOT NULL, `rateUs` TEXT NOT NULL, `reEnterNewPassword` TEXT NOT NULL, `reEnterNewPasswordLabel` TEXT NOT NULL, `reOrder` TEXT NOT NULL, `readyForShipping` TEXT NOT NULL, `receiver` TEXT NOT NULL, `refund` TEXT NOT NULL, `refundItems` TEXT NOT NULL, `resendCode` TEXT NOT NULL, `reset` TEXT NOT NULL, `resetPassword` TEXT NOT NULL, `returnProduct` TEXT NOT NULL, `reviews` TEXT NOT NULL, `reviewsWithBraces` TEXT NOT NULL, `save` TEXT NOT NULL, `search` TEXT NOT NULL, `send` TEXT NOT NULL, `setAsDefaultAddress` TEXT NOT NULL, `shippingPolicy` TEXT NOT NULL, `shortOtp` TEXT NOT NULL, `shortPassword` TEXT NOT NULL, `shortUsername` TEXT NOT NULL, `showDetails` TEXT NOT NULL, `signup` TEXT NOT NULL, `size` TEXT NOT NULL, `skip` TEXT NOT NULL, `sortBy` TEXT NOT NULL, `success` TEXT NOT NULL, `termsConditions` TEXT NOT NULL, `todaysOffers` TEXT NOT NULL, `topBrands` TEXT NOT NULL, `total` TEXT NOT NULL, `trackOrder` TEXT NOT NULL, `twitter` TEXT NOT NULL, `typesOfDataWeCollect` TEXT NOT NULL, `underReview` TEXT NOT NULL, `username` TEXT NOT NULL, `usernameHint` TEXT NOT NULL, `viewAll` TEXT NOT NULL, `wallet` TEXT NOT NULL, `website` TEXT NOT NULL, `welcome` TEXT NOT NULL, `whatsapp` TEXT NOT NULL, `work` TEXT NOT NULL, `writeYourComment` TEXT NOT NULL, `yourBalance` TEXT NOT NULL, `qtyToRefund` TEXT NOT NULL, `recommendedForYou` TEXT NOT NULL, `outOfStock` TEXT NOT NULL, `addressRequired` TEXT NOT NULL, `detailedAddressRequired` TEXT NOT NULL, `countryRequired` TEXT NOT NULL, `governmentRequired` TEXT NOT NULL, `cityRequired` TEXT NOT NULL, `regionRequired` TEXT NOT NULL, `postalCodeRequired` TEXT NOT NULL, `contactNumberRequired` TEXT NOT NULL, `region` TEXT NOT NULL, `enableLocation` TEXT NOT NULL, `locationNeedsToBeEnabled` TEXT NOT NULL, `subtotal` TEXT NOT NULL, `taxAndOtherFees` TEXT NOT NULL, `noDataFound` TEXT NOT NULL, `needsLogin` TEXT NOT NULL, `paymentSuccess` TEXT NOT NULL, `backToHome` TEXT NOT NULL, `notAvailable` TEXT NOT NULL, `addedSuccessfully` TEXT NOT NULL, `someThingWentWrong` TEXT NOT NULL, `chooseVariantFirst` TEXT NOT NULL, `editCart` TEXT NOT NULL, `addingItemToCartRequiresLogin` TEXT NOT NULL, `cancel` TEXT NOT NULL, `chatRoom` TEXT NOT NULL, `tryToConnectAgain` TEXT NOT NULL, `exit` TEXT NOT NULL, `noConnection` TEXT NOT NULL, `noFavourite` TEXT NOT NULL, `You_have_nothing_on_your_list_yet` TEXT NOT NULL, `its_never_too_late_to_change_it` TEXT NOT NULL, `inboxEmpty` TEXT NOT NULL, `You_have_no_messages_yet` TEXT NOT NULL, `Be_the_first_to_start_a_conversation` TEXT NOT NULL, `chat` TEXT NOT NULL, `review` TEXT NOT NULL, `tiktok` TEXT NOT NULL, `title` TEXT NOT NULL, `title_types_here` TEXT NOT NULL, `message` TEXT NOT NULL, `delete` TEXT NOT NULL, `messageDeleteAccount` TEXT NOT NULL, `wechat` TEXT NOT NULL, `youtube` TEXT NOT NULL, `snapchat` TEXT NOT NULL, `useYourWallet` TEXT NOT NULL, `partyCode` TEXT NOT NULL, `use` TEXT NOT NULL, `momoPay` TEXT NOT NULL, `availableInYourWallet` TEXT NOT NULL, `changeAddress` TEXT NOT NULL, `exploreMe` TEXT NOT NULL, `thankYou` TEXT NOT NULL, `areYouSure` TEXT NOT NULL, `stay` TEXT NOT NULL, `notification` TEXT NOT NULL, `onDelivery` TEXT NOT NULL, `The_order_has_been_requested_successfully` TEXT NOT NULL, `contnue` TEXT NOT NULL, `checkCart` TEXT NOT NULL, `recieved` TEXT NOT NULL, `reachUs` TEXT NOT NULL, `product` TEXT NOT NULL, `totalPrice` TEXT NOT NULL, `YourCartIsEmpty` TEXT NOT NULL, `RefundReasons` TEXT NOT NULL, `Products` TEXT NOT NULL, `Quantity` TEXT NOT NULL, `currentRefunds` TEXT NOT NULL, `previousRefunds` TEXT NOT NULL, `approval` TEXT NOT NULL, `amount` TEXT NOT NULL, `date` TEXT NOT NULL, `thereIsNoProduct` TEXT NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "accepted",
+            "columnName": "accepted",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "account",
+            "columnName": "account",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "accountVerification",
+            "columnName": "accountVerification",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "addAddressWithPlusPrefix",
+            "columnName": "addAddressWithPlusPrefix",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "addAddress",
+            "columnName": "addAddress",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "addMore",
+            "columnName": "addMore",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "addNewCreditDebitCard",
+            "columnName": "addNewCreditDebitCard",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "addToCard",
+            "columnName": "addToCard",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "address",
+            "columnName": "address",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "addressName",
+            "columnName": "addressName",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "addressType",
+            "columnName": "addressType",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "alreadyHaveAnAccount",
+            "columnName": "alreadyHaveAnAccount",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "appName",
+            "columnName": "appName",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "apply",
+            "columnName": "apply",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "areYouSureYouWantToDeleteAccount",
+            "columnName": "areYouSureYouWantToDeleteAccount",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "areYouSureYouWantToLogOut",
+            "columnName": "areYouSureYouWantToLogOut",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "availableCoupons",
+            "columnName": "availableCoupons",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "back",
+            "columnName": "back",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "bestSeller",
+            "columnName": "bestSeller",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "blankEmail",
+            "columnName": "blankEmail",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "blankOtp",
+            "columnName": "blankOtp",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "blankPassword",
+            "columnName": "blankPassword",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "blankPhone",
+            "columnName": "blankPhone",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "blankUsername",
+            "columnName": "blankUsername",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "canITrackMyOrdersDeliveryStatus",
+            "columnName": "canITrackMyOrdersDeliveryStatus",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "cart",
+            "columnName": "cart",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "cash",
+            "columnName": "cash",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "categories",
+            "columnName": "categories",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "category",
+            "columnName": "category",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "change",
+            "columnName": "change",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "city",
+            "columnName": "city",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "clear",
+            "columnName": "clear",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "color",
+            "columnName": "color",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "confirm",
+            "columnName": "confirm",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "confirmLocation",
+            "columnName": "confirmLocation",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "contactNumber",
+            "columnName": "contactNumber",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "contactUs",
+            "columnName": "contactUs",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "continueForPayment",
+            "columnName": "continueForPayment",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "country",
+            "columnName": "country",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "coupons",
+            "columnName": "coupons",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "creditDebitCards",
+            "columnName": "creditDebitCards",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "currency",
+            "columnName": "currency",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "currentOrders",
+            "columnName": "currentOrders",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "currentPassword",
+            "columnName": "currentPassword",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "currentRequests",
+            "columnName": "currentRequests",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "customerService",
+            "columnName": "customerService",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "declined",
+            "columnName": "declined",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "deleteAccount",
+            "columnName": "deleteAccount",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "delivered",
+            "columnName": "delivered",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "deliveryAddress",
+            "columnName": "deliveryAddress",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "description",
+            "columnName": "description",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "detailedAddress",
+            "columnName": "detailedAddress",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "donTHaveAnAccount",
+            "columnName": "donTHaveAnAccount",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "done",
+            "columnName": "done",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "email",
+            "columnName": "email",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "emailHint",
+            "columnName": "emailHint",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "enterPhoneNumberToResetPassword",
+            "columnName": "enterPhoneNumberToResetPassword",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "fAQ",
+            "columnName": "fAQ",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "facebook",
+            "columnName": "facebook",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "fashion",
+            "columnName": "fashion",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "favourites",
+            "columnName": "favourites",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "filter",
+            "columnName": "filter",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "flashSale",
+            "columnName": "flashSale",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "forgetPasswordAppBarTitle",
+            "columnName": "forgetPasswordAppBarTitle",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "government",
+            "columnName": "government",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "hi",
+            "columnName": "hi",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "home",
+            "columnName": "home",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "instagram",
+            "columnName": "instagram",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "invalidEmail",
+            "columnName": "invalidEmail",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "invalidOtp",
+            "columnName": "invalidOtp",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "invalidPhone",
+            "columnName": "invalidPhone",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "itemsInYourCart",
+            "columnName": "itemsInYourCart",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "language",
+            "columnName": "language",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "logIn",
+            "columnName": "logIn",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "logOut",
+            "columnName": "logOut",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "loginBy",
+            "columnName": "loginBy",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "loginScreenHeader",
+            "columnName": "loginScreenHeader",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "testSmallDescription",
+            "columnName": "testSmallDescription",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "testDescription",
+            "columnName": "testDescription",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "material",
+            "columnName": "material",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "mobileNumber",
+            "columnName": "mobileNumber",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "myProfile",
+            "columnName": "myProfile",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "newPassword",
+            "columnName": "newPassword",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "newPasswordHint",
+            "columnName": "newPasswordHint",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "newPasswordLabel",
+            "columnName": "newPasswordLabel",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "newProduct",
+            "columnName": "newProduct",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "next",
+            "columnName": "next",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "notSimilarPasswords",
+            "columnName": "notSimilarPasswords",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "orderDate",
+            "columnName": "orderDate",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "orderID",
+            "columnName": "orderID",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "orderNumber",
+            "columnName": "orderNumber",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "orders",
+            "columnName": "orders",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "otpEmailDescription",
+            "columnName": "otpEmailDescription",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "otpPhoneDescription",
+            "columnName": "otpPhoneDescription",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "password",
+            "columnName": "password",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "payment",
+            "columnName": "payment",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "paymentDetails",
+            "columnName": "paymentDetails",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "paymentMethod",
+            "columnName": "paymentMethod",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "paymentStatus",
+            "columnName": "paymentStatus",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "pending",
+            "columnName": "pending",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "phoneNumberHint",
+            "columnName": "phoneNumberHint",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "placeOrder",
+            "columnName": "placeOrder",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "postalCode",
+            "columnName": "postalCode",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "previousOrders",
+            "columnName": "previousOrders",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "previousRequests",
+            "columnName": "previousRequests",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "price",
+            "columnName": "price",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "priceRange",
+            "columnName": "priceRange",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "privacyPolicy",
+            "columnName": "privacyPolicy",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "productDetails",
+            "columnName": "productDetails",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "profile",
+            "columnName": "profile",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "promoCode",
+            "columnName": "promoCode",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "properties",
+            "columnName": "properties",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "rateUs",
+            "columnName": "rateUs",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "reEnterNewPassword",
+            "columnName": "reEnterNewPassword",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "reEnterNewPasswordLabel",
+            "columnName": "reEnterNewPasswordLabel",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "reOrder",
+            "columnName": "reOrder",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "readyForShipping",
+            "columnName": "readyForShipping",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "receiver",
+            "columnName": "receiver",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "refund",
+            "columnName": "refund",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "refundItems",
+            "columnName": "refundItems",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "resendCode",
+            "columnName": "resendCode",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "reset",
+            "columnName": "reset",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "resetPassword",
+            "columnName": "resetPassword",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "returnProduct",
+            "columnName": "returnProduct",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "reviews",
+            "columnName": "reviews",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "reviewsWithBraces",
+            "columnName": "reviewsWithBraces",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "save",
+            "columnName": "save",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "search",
+            "columnName": "search",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "send",
+            "columnName": "send",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "setAsDefaultAddress",
+            "columnName": "setAsDefaultAddress",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "shippingPolicy",
+            "columnName": "shippingPolicy",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "shortOtp",
+            "columnName": "shortOtp",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "shortPassword",
+            "columnName": "shortPassword",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "shortUsername",
+            "columnName": "shortUsername",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "showDetails",
+            "columnName": "showDetails",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "signup",
+            "columnName": "signup",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "size",
+            "columnName": "size",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "skip",
+            "columnName": "skip",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "sortBy",
+            "columnName": "sortBy",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "success",
+            "columnName": "success",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "termsConditions",
+            "columnName": "termsConditions",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "todaysOffers",
+            "columnName": "todaysOffers",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "topBrands",
+            "columnName": "topBrands",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "total",
+            "columnName": "total",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "trackOrder",
+            "columnName": "trackOrder",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "twitter",
+            "columnName": "twitter",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "typesOfDataWeCollect",
+            "columnName": "typesOfDataWeCollect",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "underReview",
+            "columnName": "underReview",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "username",
+            "columnName": "username",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "usernameHint",
+            "columnName": "usernameHint",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "viewAll",
+            "columnName": "viewAll",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "wallet",
+            "columnName": "wallet",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "website",
+            "columnName": "website",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "welcome",
+            "columnName": "welcome",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "whatsapp",
+            "columnName": "whatsapp",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "work",
+            "columnName": "work",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "writeYourComment",
+            "columnName": "writeYourComment",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "yourBalance",
+            "columnName": "yourBalance",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "qtyToRefund",
+            "columnName": "qtyToRefund",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "recommendedForYou",
+            "columnName": "recommendedForYou",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "outOfStock",
+            "columnName": "outOfStock",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "addressRequired",
+            "columnName": "addressRequired",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "detailedAddressRequired",
+            "columnName": "detailedAddressRequired",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "countryRequired",
+            "columnName": "countryRequired",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "governmentRequired",
+            "columnName": "governmentRequired",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "cityRequired",
+            "columnName": "cityRequired",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "regionRequired",
+            "columnName": "regionRequired",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "postalCodeRequired",
+            "columnName": "postalCodeRequired",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "contactNumberRequired",
+            "columnName": "contactNumberRequired",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "region",
+            "columnName": "region",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "enableLocation",
+            "columnName": "enableLocation",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "locationNeedsToBeEnabled",
+            "columnName": "locationNeedsToBeEnabled",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "subtotal",
+            "columnName": "subtotal",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "taxAndOtherFees",
+            "columnName": "taxAndOtherFees",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "noDataFound",
+            "columnName": "noDataFound",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "needsLogin",
+            "columnName": "needsLogin",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "paymentSuccess",
+            "columnName": "paymentSuccess",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "backToHome",
+            "columnName": "backToHome",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "notAvailable",
+            "columnName": "notAvailable",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "addedSuccessfully",
+            "columnName": "addedSuccessfully",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "someThingWentWrong",
+            "columnName": "someThingWentWrong",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "chooseVariantFirst",
+            "columnName": "chooseVariantFirst",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "editCart",
+            "columnName": "editCart",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "addingItemToCartRequiresLogin",
+            "columnName": "addingItemToCartRequiresLogin",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "cancel",
+            "columnName": "cancel",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "chatRoom",
+            "columnName": "chatRoom",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "tryToConnectAgain",
+            "columnName": "tryToConnectAgain",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "exit",
+            "columnName": "exit",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "noConnection",
+            "columnName": "noConnection",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "noFavourite",
+            "columnName": "noFavourite",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "You_have_nothing_on_your_list_yet",
+            "columnName": "You_have_nothing_on_your_list_yet",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "its_never_too_late_to_change_it",
+            "columnName": "its_never_too_late_to_change_it",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "inboxEmpty",
+            "columnName": "inboxEmpty",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "You_have_no_messages_yet",
+            "columnName": "You_have_no_messages_yet",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "Be_the_first_to_start_a_conversation",
+            "columnName": "Be_the_first_to_start_a_conversation",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "chat",
+            "columnName": "chat",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "review",
+            "columnName": "review",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "tiktok",
+            "columnName": "tiktok",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "title",
+            "columnName": "title",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "title_types_here",
+            "columnName": "title_types_here",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "message",
+            "columnName": "message",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "delete",
+            "columnName": "delete",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "messageDeleteAccount",
+            "columnName": "messageDeleteAccount",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "wechat",
+            "columnName": "wechat",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "youtube",
+            "columnName": "youtube",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "snapchat",
+            "columnName": "snapchat",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "useYourWallet",
+            "columnName": "useYourWallet",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "partyCode",
+            "columnName": "partyCode",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "use",
+            "columnName": "use",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "momoPay",
+            "columnName": "momoPay",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "availableInYourWallet",
+            "columnName": "availableInYourWallet",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "changeAddress",
+            "columnName": "changeAddress",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "exploreMe",
+            "columnName": "exploreMe",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "thankYou",
+            "columnName": "thankYou",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "areYouSure",
+            "columnName": "areYouSure",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "stay",
+            "columnName": "stay",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "notification",
+            "columnName": "notification",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "onDelivery",
+            "columnName": "onDelivery",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "The_order_has_been_requested_successfully",
+            "columnName": "The_order_has_been_requested_successfully",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "contnue",
+            "columnName": "contnue",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "checkCart",
+            "columnName": "checkCart",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "recieved",
+            "columnName": "recieved",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "reachUs",
+            "columnName": "reachUs",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "product",
+            "columnName": "product",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "totalPrice",
+            "columnName": "totalPrice",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "YourCartIsEmpty",
+            "columnName": "YourCartIsEmpty",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "RefundReasons",
+            "columnName": "RefundReasons",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "Products",
+            "columnName": "Products",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "Quantity",
+            "columnName": "Quantity",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "currentRefunds",
+            "columnName": "currentRefunds",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "previousRefunds",
+            "columnName": "previousRefunds",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "approval",
+            "columnName": "approval",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "amount",
+            "columnName": "amount",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "date",
+            "columnName": "date",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "thereIsNoProduct",
+            "columnName": "thereIsNoProduct",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        }
+      }
+    ],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '4caafb32e8f0b6a13f96c272ddd432e7')"
+    ]
+  }
+}

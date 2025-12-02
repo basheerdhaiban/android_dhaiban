@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Dhaiban.splashScreen" parent="Theme.SplashScreen.IconBackground">
+        <item name="windowSplashScreenBackground">#f4eee7</item>
+<!--        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher_foreground</item>-->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo_splash</item>
+        <item name="postSplashScreenTheme">@style/Theme.AppCompat.Light.NoActionBar</item>
+    </style>
+</resources>

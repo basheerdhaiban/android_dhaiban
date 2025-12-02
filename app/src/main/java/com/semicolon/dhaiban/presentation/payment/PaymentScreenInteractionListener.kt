@@ -1,0 +1,30 @@
+package com.semicolon.dhaiban.presentation.payment
+
+interface PaymentScreenInteractionListener {
+    fun onClickUpButton()
+    fun onClickPlaceOrder()
+    fun onClickTrackOrder(orderId: Int)
+    fun onClickWallet(isWalletSelected: Boolean)
+    fun onClickMomoPay(isMomoPaySelected: Boolean)
+    fun onClickPayTabs(isPayTabSelected: Boolean)
+    fun onCheckCash(isCheck: Boolean)
+    fun onClickBackToHome()
+    fun onClickAddNewCredit()
+    fun onClickExpandDebitCards()
+    fun onClickDismissAddCredit()
+    fun onClickNotification()
+    fun onDismissWalletDailog()
+    fun onDismissMomoPayDailog()
+    fun onDismissPayTabsView()
+    fun onChosseWalletAsPayment()
+    fun onChosseCashAsPayment()
+    fun deletePayment()
+    fun onClickPaymentStatus(status: StatusPaymentType, amount: Double)
+    fun onWalletBalanceTextChange(amount: String)
+    fun onMomoPayAccountTextChange(text: String)
+
+    fun paytabsInitiate(order_id: Int)
+    fun paytabsCheckStatus(tran_ref: String?)
+//    fun paytabsReturn(tran_ref: String?)
+//    fun paytabsCallBack(tran_ref: String, cart_id: String)
+}

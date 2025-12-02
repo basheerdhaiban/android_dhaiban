@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="logo_width">150dp</dimen>
+    <dimen name="logo_height">150dp</dimen>
+
+
+    <!-- **START** PayTab Payment dimens -->
+<!--    <dimen name="payment_sdk_title_font_size">18sp</dimen>-->
+<!--    <dimen name="payment_sdk_title_margin">24dp</dimen>-->
+<!--    <dimen name="payment_sdk_primary_font_size">16sp</dimen>-->
+<!--    <dimen name="payment_sdk_secondary_font_size">16sp</dimen>-->
+<!--    <dimen name="payment_sdk_button_font_size">16sp</dimen>-->
+<!--    <dimen name="payment_sdk_separator_thickness">1dp</dimen>-->
+<!--    <dimen name="payment_sdk_stroke_thickness">.5dp</dimen>-->
+<!--    <dimen name="payment_sdk_input_corner_radius">8dp</dimen>-->
+<!--    <dimen name="payment_sdk_card_corner_radius">8dp</dimen>-->
+<!--    <dimen name="payment_sdk_card_margin">16dp</dimen>-->
+<!--    <dimen name="payment_sdk_billing_header_corner_radius">0dp</dimen>-->
+<!--    <dimen name="payment_sdk_billing_header_margin">0dp</dimen>-->
+<!--    <dimen name="payment_sdk_button_corner_radius">8dp</dimen>-->
+<!--    <dimen name="payment_sdk_error_font_size">12sp</dimen>-->
+<!--    <dimen name="payment_sdk_amount_font_size">16sp</dimen>-->
+    <!-- **END** PayTab Payment dimens -->
+</resources>

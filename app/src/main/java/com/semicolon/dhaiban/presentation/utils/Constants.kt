@@ -1,0 +1,28 @@
+package com.semicolon.dhaiban.presentation.utils
+
+object Constants {
+    const val PRODUCT_SCREEN = "ProductScreen"
+    const val SUBCATEGORY_SCREEN = "SubCategoryScreen"
+    const val HOME_SCREEN = "homeScreen"
+    const val CATEGORY_SCREEN = "categoryScreen"
+    const val BRAND_SCREEN = "brandScreen"
+    const val BRAND_PRODUCTS_SCREEN = "brandProductsScreen"
+    const val FLASH_SALE_SCREEN = "flashSaleScreen"
+    const val CART_SCREEN = "cartScreen"
+    const val PROFILE_SCREEN = "profileScreen"
+    const val FAVORITES_SCREEN = "favoritesScreen"
+    const val ADDRESS_SCREEN = "addressScreen"
+    const val ADD_ADDRESS_SCREEN = "addAddressScreen"
+    const val MY_PROFILE_SCREEN = "myProfileScreen"
+    const val PAYMENT_SCREEN = "paymentScreen"
+    const val SEARCH_SCREEN = "paymentScreen"
+    const val ORDERS_SCREEN = "ordersScreen"
+    const val TRACK_ORDER_SCREEN = "trackOrderScreen"
+    const val TRACK_REFUND_SCREEN = "trackRefundScreen"
+    const val CONTACT_US_SCREEN = "contactUsScreen"
+    const val FAQ_SCREEN = "faqScreen"
+    const val FAQ_DETAILS_SCREEN = "faqDetailsScreen"
+    const val REFUND_SCREEN = "refundScreen"
+    const val WALLET_SCREEN = "walletScreen"
+    const val NOTIFICATION_SCREEN = "notificationScreen"
+}
